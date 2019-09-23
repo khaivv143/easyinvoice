@@ -1,0 +1,1017 @@
+/* line 3, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+body {
+  font-size: 15px;
+  color: #221f20;
+  font-family: 'Roboto', sans-serif; }
+
+/* line 10, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+h1 {
+  font-size: 26px; }
+
+/* line 14, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+h2 {
+  font-size: 26px; }
+
+/* line 18, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+h3 {
+  font-size: 22px; }
+
+/* line 22, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+h4 {
+  font-size: 18px; }
+
+/* line 26, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+h5 {
+  font-size: 16px; }
+
+/* line 30, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+.easy_ul, #topnav ul, header .mainmenu ul, #introhome .main ul, #benefithome .item ul, #whytous .main ul, footer .col-footer ul, #document .card-body ul.list-pdf {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+/* line 36, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+a {
+  text-decoration: none !important;
+  color: #221f20; }
+
+/* line 41, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+#topnav {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+  /* line 44, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  #topnav .logo {
+    margin-top: 5px; }
+    /* line 46, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    #topnav .logo img {
+      height: 60px; }
+  /* line 51, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  #topnav ul {
+    display: table;
+    float: right; }
+    /* line 56, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    #topnav ul li {
+      display: table-cell;
+      padding-left: 57px; }
+      /* line 60, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+      #topnav ul li a {
+        display: block;
+        vertical-align: top;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 16px; }
+        /* line 67, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+        #topnav ul li a:hover {
+          color: #db6825; }
+        /* line 71, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+        #topnav ul li a.tracuu {
+          background: #db6825;
+          color: #fff;
+          width: 110px;
+          display: block;
+          border-radius: 10px;
+          padding: 5px 0 3px 0;
+          text-align: center;
+          font-weight: 400; }
+        /* line 82, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+        #topnav ul li a.linkactive {
+          color: #db6825; }
+      /* line 87, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+      #topnav ul li span {
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 16px; }
+      /* line 94, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+      #topnav ul li .phone a {
+        color: #db6825;
+        font-size: 18px;
+        text-align: right; }
+
+/* line 104, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+header {
+  background: #313131; }
+  /* line 107, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  header .mainmenu {
+    padding: 15px 0 12px 0; }
+    /* line 113, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    header .mainmenu ul li {
+      display: inline-block;
+      padding-right: 30px;
+      padding-left: 3px;
+      position: relative;
+      z-index: 9999; }
+      /* line 120, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+      header .mainmenu ul li a {
+        text-transform: uppercase;
+        display: block;
+        font-size: 17px;
+        color: #fff; }
+        /* line 127, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+        header .mainmenu ul li a i.fa {
+          font-size: 20px; }
+        /* line 132, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+        header .mainmenu ul li a:hover {
+          color: #db6825; }
+      /* line 137, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+      header .mainmenu ul li ul {
+        position: absolute;
+        background: #000;
+        visibility: hidden;
+        pointer-events: none;
+        text-align: left; }
+        /* line 144, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+        header .mainmenu ul li ul li {
+          padding: 5px 15px 5px 10px;
+          border-bottom: 1px dotted #ccc;
+          display: block; }
+          /* line 149, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+          header .mainmenu ul li ul li a {
+            white-space: nowrap;
+            text-transform: none;
+            font-size: 14px; }
+          /* line 155, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+          header .mainmenu ul li ul li:last-child {
+            border: 0; }
+      /* line 162, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+      header .mainmenu ul li:hover a {
+        color: #db6825; }
+      /* line 166, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+      header .mainmenu ul li:hover ul {
+        visibility: visible;
+        pointer-events: all; }
+        /* line 171, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+        header .mainmenu ul li:hover ul li a {
+          color: #fff; }
+          /* line 174, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+          header .mainmenu ul li:hover ul li a:hover {
+            color: #db6825; }
+
+/* line 186, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+h1.easy-title {
+  color: #db6825;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  padding: 0 0 25px 0;
+  font-size: 28px; }
+
+/* line 195, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+h2.easy-title {
+  color: #db6825;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  padding: 0 0 25px 0;
+  font-size: 28px; }
+
+/* line 205, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+#introhome {
+  background: #f3f3f3;
+  padding: 40px 0; }
+  /* line 209, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  #introhome .main {
+    padding-top: 10px; }
+    /* line 212, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    #introhome .main a {
+      color: #db6825; }
+    /* line 216, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    #introhome .main ul {
+      margin-bottom: 20px; }
+      /* line 220, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+      #introhome .main ul li {
+        margin-bottom: 10px; }
+        /* line 223, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+        #introhome .main ul li img {
+          width: 18px;
+          height: auto;
+          margin-right: 5px; }
+  /* line 233, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  #introhome .thumb-video img {
+    width: 100%;
+    height: auto; }
+
+/* line 240, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+#benefithome {
+  padding: 40px 0 5px 0; }
+  /* line 243, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  #benefithome .item {
+    padding: 0 10px; }
+    /* line 247, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    #benefithome .item .thumb img {
+      width: 100%;
+      max-width: 110px;
+      display: block;
+      margin: auto; }
+    /* line 255, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    #benefithome .item h4 {
+      text-transform: uppercase;
+      text-align: center;
+      margin: 0;
+      padding: 15px; }
+    /* line 265, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    #benefithome .item ul li {
+      margin-bottom: 10px;
+      text-align: justify; }
+      /* line 269, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+      #benefithome .item ul li::before {
+        content: "\f111";
+        font-family: fontawesome;
+        color: #db6825;
+        font-size: 6px;
+        margin-right: 5px;
+        transform: translateY(-2px);
+        display: inline-block; }
+
+/* line 284, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+#whytous {
+  padding: 40px 0 30px 0; }
+  /* line 287, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  #whytous .main {
+    margin-top: 10px; }
+    /* line 293, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    #whytous .main ul li {
+      display: flex;
+      margin-bottom: 25px; }
+      /* line 297, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+      #whytous .main ul li .thumb {
+        width: 50px; }
+        /* line 300, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+        #whytous .main ul li .thumb img {
+          width: 100%;
+          height: auto;
+          margin-top: 5px; }
+      /* line 307, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+      #whytous .main ul li .info {
+        width: calc(100% - 50px);
+        padding-left: 15px; }
+        /* line 311, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+        #whytous .main ul li .info h5 {
+          margin: 0 0 5px 0;
+          padding: 0; }
+        /* line 316, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+        #whytous .main ul li .info p {
+          margin: 0;
+          padding: 0; }
+
+/* line 326, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+#register {
+  margin-top: 20px;
+  background: url(../images/bg-download.png) no-repeat;
+  background-size: cover;
+  padding: 40px 0; }
+  /* line 332, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  #register label {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 21px;
+    height: 100%;
+    display: flex;
+    align-items: center; }
+  /* line 342, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  #register .rlink {
+    text-align: right; }
+    /* line 345, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    #register .rlink a {
+      cursor: pointer; }
+      /* line 348, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+      #register .rlink a img {
+        height: 90px; }
+
+/* line 357, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+#quote {
+  padding: 40px 0;
+  background: #f3f3f3; }
+  /* line 361, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  #quote .owl-item > div {
+    cursor: pointer;
+    margin: 20px 30px;
+    transition: margin 0.4s ease;
+    border: 1px solid #e77c3d;
+    padding: 25px 10px;
+    border-radius: 4px;
+    background: #fff; }
+    /* line 370, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    #quote .owl-item > div .title-item {
+      text-transform: uppercase;
+      font-size: 20px;
+      padding: 0 10px; }
+    /* line 376, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    #quote .owl-item > div .price-item {
+      text-transform: uppercase;
+      font-size: 32px;
+      border-bottom: 2px solid #f97733;
+      padding: 0 10px;
+      color: #f97733; }
+    /* line 384, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    #quote .owl-item > div .description-item {
+      padding: 20px 0; }
+      /* line 387, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+      #quote .owl-item > div .description-item label {
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        font-size: 60px;
+        border-bottom: 1px solid #ffba91;
+        padding: 0;
+        height: 75px;
+        width: 100%;
+        max-width: 250px;
+        color: #f97733; }
+      /* line 400, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+      #quote .owl-item > div .description-item p {
+        text-align: center;
+        margin-top: 8px;
+        font-size: 16px; }
+    /* line 408, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    #quote .owl-item > div .button-buy a {
+      width: 180px;
+      display: block;
+      margin: auto;
+      border: 1px solid #f97733;
+      padding: 5px 0 2px 0;
+      text-align: center;
+      color: #f97733;
+      text-decoration: none;
+      font-size: 20px;
+      text-transform: uppercase;
+      border-radius: 20px; }
+  /* line 424, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  #quote .owl-item.center > div {
+    cursor: auto;
+    margin: 0 10px;
+    padding: 45px 10px; }
+  /* line 434, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  #quote .owl-item.center > div {
+    background: #f97733; }
+  /* line 438, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  #quote .owl-item.center {
+    border-radius: 5px; }
+    /* line 441, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    #quote .owl-item.center .title-item {
+      color: #fff; }
+    /* line 445, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    #quote .owl-item.center .price-item {
+      color: #fff;
+      border-color: #fff; }
+    /* line 451, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    #quote .owl-item.center .description-item {
+      padding: 20px 0; }
+      /* line 454, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+      #quote .owl-item.center .description-item label {
+        color: #fff; }
+      /* line 458, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+      #quote .owl-item.center .description-item p {
+        color: #fff; }
+    /* line 464, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    #quote .owl-item.center .button-buy a {
+      color: #fff;
+      border-color: #fff; }
+  /* line 471, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  #quote .owl-prev {
+    width: 12px;
+    position: absolute;
+    top: 50%;
+    left: -30px;
+    transform: translateY(-50%); }
+    /* line 478, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    #quote .owl-prev img {
+      width: 12px; }
+  /* line 483, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  #quote .owl-next {
+    width: 12px;
+    position: absolute;
+    top: 50%;
+    right: -30px;
+    transform: translateY(-50%); }
+    /* line 490, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    #quote .owl-next img {
+      width: 12px; }
+  /* line 495, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  #quote .no-js .owl-carousel,
+  #quote .owl-carousel.owl-loaded {
+    height: 374px; }
+
+/* line 502, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+#customer {
+  padding: 40px 0; }
+  /* line 505, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  #customer .main {
+    padding: 0 80px; }
+    /* line 508, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    #customer .main .item {
+      border: 1px solid #eceaea;
+      outline: none; }
+      /* line 512, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+      #customer .main .item .thumb {
+        padding: 20px 0; }
+        /* line 515, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+        #customer .main .item .thumb img {
+          height: 50px;
+          width: auto;
+          display: block;
+          margin: auto; }
+      /* line 523, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+      #customer .main .item .ncompany {
+        background: #f9f9f9;
+        display: flex;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        min-height: 62px;
+        padding: 10px;
+        text-transform: uppercase; }
+        /* line 533, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+        #customer .main .item .ncompany label {
+          text-align: center;
+          margin: 0;
+          font-weight: 600;
+          text-transform: uppercase; }
+  /* line 543, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  #customer .owl-prev {
+    width: 8px;
+    position: absolute;
+    top: 50%;
+    left: -30px;
+    transform: translateY(-50%); }
+    /* line 550, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    #customer .owl-prev img {
+      width: 8px; }
+  /* line 555, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  #customer .owl-next {
+    width: 8px;
+    position: absolute;
+    top: 50%;
+    right: -30px;
+    transform: translateY(-50%); }
+    /* line 562, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    #customer .owl-next img {
+      width: 8px; }
+
+/* line 569, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+#newshome {
+  padding: 40px 0 20px 0; }
+  /* line 572, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  #newshome .item {
+    background: #f9f9f9;
+    border: 1px solid #e5e5e5; }
+    /* line 577, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    #newshome .item .thumb img {
+      width: 100%;
+      height: 190px;
+      object-fit: cover; }
+    /* line 584, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    #newshome .item .info {
+      padding: 15px; }
+      /* line 587, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+      #newshome .item .info h3 {
+        line-height: 1; }
+        /* line 590, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+        #newshome .item .info h3 a {
+          color: #db6825;
+          text-decoration: none;
+          font-size: 16px; }
+      /* line 597, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+      #newshome .item .info p {
+        margin: 0;
+        padding: 0; }
+
+/* line 605, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+#topfooter {
+  background: url(../images/bg-footer.png) center top;
+  background-size: cover;
+  padding: 40px 0; }
+  /* line 610, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  #topfooter h2 {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center; }
+  /* line 616, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  #topfooter .gr-action {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 520px;
+    margin: auto;
+    margin-top: 10px; }
+    /* line 625, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    #topfooter .gr-action a {
+      text-transform: uppercase;
+      color: #fff;
+      border-radius: 10px;
+      display: inline-block;
+      padding: 5px 0 2px 0;
+      text-align: center; }
+      /* line 633, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+      #topfooter .gr-action a.buynow {
+        background: #0251b1;
+        width: 100px; }
+      /* line 638, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+      #topfooter .gr-action a.register {
+        background: #fff;
+        color: #000;
+        width: 180px; }
+      /* line 644, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+      #topfooter .gr-action a.demo {
+        border: 1px solid #fff;
+        width: 160px; }
+  /* line 651, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  #topfooter .listphone {
+    color: #fff;
+    border-top: 1px solid #f5a06e;
+    padding-top: 30px;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 30px; }
+    /* line 660, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    #topfooter .listphone .leftbox {
+      width: 100%;
+      max-width: 280px;
+      text-align: center;
+      float: right; }
+    /* line 667, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    #topfooter .listphone .rightbox {
+      width: 100%;
+      max-width: 280px;
+      text-align: center;
+      float: left; }
+    /* line 674, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    #topfooter .listphone h4 {
+      text-transform: uppercase;
+      width: 100%; }
+    /* line 679, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    #topfooter .listphone a {
+      display: block;
+      color: #fff;
+      font-size: 20px;
+      width: 100%; }
+
+/* line 690, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+footer {
+  background: #e0580a;
+  padding: 40px 0; }
+  /* line 694, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  footer .flogo {
+    margin-bottom: 20px; }
+    /* line 697, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    footer .flogo img {
+      height: 60px; }
+  /* line 702, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  footer .col-footer {
+    color: #f9f9f9; }
+    /* line 705, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    footer .col-footer h5 {
+      text-transform: uppercase;
+      margin-bottom: 10px; }
+    /* line 713, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    footer .col-footer ul li {
+      display: flex;
+      margin-bottom: 10px; }
+      /* line 717, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+      footer .col-footer ul li:last-child {
+        margin-bottom: 0; }
+      /* line 721, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+      footer .col-footer ul li i {
+        width: 20px;
+        display: inline-block;
+        text-align: center; }
+        /* line 726, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+        footer .col-footer ul li i.fa-map-marker {
+          font-size: 20px; }
+        /* line 730, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+        footer .col-footer ul li i.fa-phone {
+          font-size: 18px; }
+      /* line 735, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+      footer .col-footer ul li span {
+        width: calc(100% - 20px);
+        display: inline-block;
+        padding-left: 5px; }
+  /* line 744, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  footer .social {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    height: 100%; }
+    /* line 751, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    footer .social a {
+      background: #eaeaea;
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      line-height: 50px;
+      border-radius: 50%;
+      margin: 0 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      /* line 763, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+      footer .social a i {
+        font-size: 24px;
+        color: #e0580a; }
+    /* line 769, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    footer .social p {
+      margin: 0;
+      padding: 0;
+      color: #f9f9f9; }
+
+/* line 777, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+#fixedmenubar {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  z-index: 9999; }
+  /* line 784, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  #fixedmenubar a {
+    display: block;
+    margin-bottom: 8px; }
+    /* line 788, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    #fixedmenubar a img {
+      width: 50px;
+      height: auto;
+      box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3); }
+
+/* line 798, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+#feedback {
+  padding: 40px 0 20px 0; }
+  /* line 802, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  #feedback .owl-carousel .item {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+    /* line 807, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    #feedback .owl-carousel .item .content {
+      background: url(../images/bg-comment.png) no-repeat;
+      background-size: contain;
+      padding: 30px;
+      margin-left: 15px; }
+      /* line 813, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+      #feedback .owl-carousel .item .content p {
+        padding: 15px 15px 15px 0; }
+      /* line 817, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+      #feedback .owl-carousel .item .content .star {
+        display: flex;
+        justify-content: center; }
+        /* line 821, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+        #feedback .owl-carousel .item .content .star img {
+          width: 20px;
+          display: inline-block;
+          margin: 0 3px; }
+    /* line 829, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    #feedback .owl-carousel .item .author {
+      display: flex;
+      width: 100%;
+      max-width: 250px; }
+      /* line 834, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+      #feedback .owl-carousel .item .author .thumb {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%; }
+        /* line 839, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+        #feedback .owl-carousel .item .author .thumb img {
+          width: 100%; }
+      /* line 844, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+      #feedback .owl-carousel .item .author .info {
+        width: calc(100% - 70px); }
+        /* line 847, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+        #feedback .owl-carousel .item .author .info label {
+          color: #103667;
+          font-weight: 500;
+          font-size: 18px;
+          margin: 0;
+          padding: 0;
+          padding-left: 6px; }
+        /* line 856, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+        #feedback .owl-carousel .item .author .info p {
+          text-transform: uppercase;
+          margin: 0;
+          padding: 0;
+          font-size: 14px;
+          padding-left: 7px; }
+
+/* line 870, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+.owl-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px; }
+  /* line 875, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  .owl-dots .owl-dot {
+    width: 12px;
+    height: 12px;
+    margin: 0 3px; }
+    /* line 880, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    .owl-dots .owl-dot span {
+      display: block;
+      background: #ccc;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%; }
+    /* line 889, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    .owl-dots .owl-dot.active span {
+      background: #db6825; }
+
+/* line 896, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+#banner-guide {
+  background: url(../images/banner-guide.png);
+  background-size: cover;
+  padding: 40px 0 20px 0;
+  position: relative; }
+  /* line 902, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  #banner-guide h1 {
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 20px; }
+  /* line 911, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  #banner-guide .listphone {
+    color: #fff;
+    padding-top: 10px;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 10px; }
+    /* line 918, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    #banner-guide .listphone .leftbox {
+      width: 100%;
+      max-width: 230px;
+      text-align: left;
+      float: left; }
+    /* line 925, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    #banner-guide .listphone .rightbox {
+      width: 100%;
+      max-width: 230px;
+      text-align: left;
+      float: left; }
+    /* line 932, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    #banner-guide .listphone h4 {
+      text-transform: uppercase;
+      width: 100%;
+      font-weight: 400;
+      font-size: 16px; }
+    /* line 939, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    #banner-guide .listphone a {
+      display: block;
+      color: #fff;
+      font-size: 16px;
+      width: 100%;
+      text-align: center; }
+  /* line 948, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  #banner-guide .list-noti {
+    margin-top: 35px; }
+    /* line 952, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    #banner-guide .list-noti p img {
+      width: 26px;
+      height: auto;
+      margin-right: 5px; }
+    /* line 958, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    #banner-guide .list-noti p a {
+      color: #fff;
+      border-bottom: 1px solid #fff; }
+    /* line 964, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    #banner-guide .list-noti p:last-child a {
+      border: 0; }
+  /* line 972, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  #banner-guide .icon-img {
+    position: absolute;
+    bottom: -20px;
+    width: 600px;
+    left: 60%;
+    transform: translateX(-40%); }
+
+/* line 981, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+#intro-guide {
+  padding: 40px 0; }
+  /* line 985, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  #intro-guide h2.easy-title {
+    padding: 0; }
+  /* line 991, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  #intro-guide p.sub-title {
+    text-align: center;
+    margin-bottom: 20px; }
+  /* line 997, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  #intro-guide .item-video-primary {
+    width: 100%;
+    max-width: 480px;
+    margin: auto;
+    box-shadow: 0 0 10px 0 #ccc; }
+    /* line 1004, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    #intro-guide .item-video-primary .thumb img {
+      width: 100%; }
+    /* line 1009, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    #intro-guide .item-video-primary .info {
+      background: #f9f9f9;
+      padding: 15px; }
+      /* line 1013, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+      #intro-guide .item-video-primary .info a {
+        color: #db6825;
+        display: block;
+        font-weight: 500;
+        font-size: 16px; }
+        /* line 1019, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+        #intro-guide .item-video-primary .info a:last-child {
+          color: #000;
+          font-weight: 300;
+          font-size: 15px;
+          margin-top: 10px; }
+
+/* line 1030, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+#listvideo {
+  padding: 40px 0;
+  background: #e8e8e8; }
+  /* line 1035, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  #listvideo h2.easy-title {
+    padding: 0; }
+  /* line 1041, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  #listvideo p.sub-title {
+    text-align: center;
+    margin-bottom: 20px; }
+  /* line 1047, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  #listvideo .list-video {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    /* line 1052, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    #listvideo .list-video .item {
+      width: 270px;
+      margin-bottom: 15px;
+      border: 1px solid #e2e2e2; }
+      /* line 1058, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+      #listvideo .list-video .item .thumb img {
+        width: 100%; }
+      /* line 1063, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+      #listvideo .list-video .item .info {
+        background: #f9f9f9;
+        padding: 10px; }
+        /* line 1067, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+        #listvideo .list-video .item .info a {
+          color: #db6825;
+          display: block;
+          font-weight: 500;
+          font-size: 15px; }
+          /* line 1073, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+          #listvideo .list-video .item .info a:last-child {
+            color: #000;
+            font-weight: 300;
+            font-size: 15px;
+            margin-top: 10px; }
+
+/* line 1085, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+#document {
+  padding: 40px 0; }
+  /* line 1089, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  #document h2.easy-title {
+    padding: 0;
+    margin-bottom: 20px; }
+  /* line 1095, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  #document .toolbar {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 3px;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around; }
+    /* line 1104, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    #document .toolbar a {
+      font-weight: 300;
+      position: relative;
+      cursor: pointer; }
+      /* line 1109, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+      #document .toolbar a:hover {
+        color: #db6825; }
+      /* line 1114, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+      #document .toolbar a.activetab::before {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 2px;
+        background: #db6825;
+        left: 0;
+        bottom: -4px; }
+  /* line 1128, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  #document .d-tabcontrol {
+    margin-top: 30px; }
+  /* line 1132, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  #document .btn-link {
+    color: #000;
+    padding-left: 0;
+    text-decoration: none !important; }
+    /* line 1137, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    #document .btn-link::before {
+      content: "\f068";
+      font-family: fontawesome;
+      color: #db6825;
+      padding-right: 5px; }
+    /* line 1145, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    #document .btn-link.collapsed::before {
+      content: "\f067";
+      font-family: fontawesome;
+      color: #db6825;
+      padding-right: 5px; }
+  /* line 1154, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  #document .card {
+    border: 1px solid #db6825;
+    border-radius: 5px;
+    margin-bottom: 20px; }
+  /* line 1160, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  #document .card-header {
+    border-color: #db6825;
+    padding: .4rem .9rem;
+    background: #fff; }
+  /* line 1166, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  #document .card-body {
+    padding: 1.25rem .9rem; }
+    /* line 1173, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    #document .card-body ul.list-pdf li {
+      border-bottom: 1px solid #e4e2e2;
+      display: flex;
+      padding-bottom: 15px;
+      margin-bottom: 15px; }
+      /* line 1179, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+      #document .card-body ul.list-pdf li img {
+        width: 90px;
+        height: 60px;
+        object-fit: cover; }
+      /* line 1185, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+      #document .card-body ul.list-pdf li h4 {
+        margin-left: 10px;
+        width: calc(100% - 130px);
+        margin-top: 15px; }
+        /* line 1190, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+        #document .card-body ul.list-pdf li h4 a {
+          font-size: 15px;
+          color: #000;
+          text-decoration: none; }
+      /* line 1197, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+      #document .card-body ul.list-pdf li:last-child {
+        border: 0;
+        margin: 0;
+        padding: 0; }
+
+@media screen and (max-width: 1200px) {
+  /* line 1213, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  #topnav ul li {
+    padding-left: 20px; }
+    /* line 1216, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    #topnav ul li a {
+      font-size: 15px; }
+    /* line 1220, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    #topnav ul li span {
+      font-size: 15px; }
+  /* line 1230, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  header .mainmenu ul li {
+    padding-left: 20px; }
+    /* line 1233, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    header .mainmenu ul li a {
+      font-size: 15px; } }
+
+@media screen and (max-width: 992px) {
+  /* line 1244, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  #banner-guide .icon-img {
+    display: none; } }
+
+@media screen and (min-width: 992px) {
+  /* line 1252, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  .pd-0-50 {
+    padding: 0 80px; }
+  /* line 1256, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  .border-left-dk {
+    position: relative; }
+    /* line 1259, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+    .border-left-dk::before {
+      position: absolute;
+      content: "";
+      height: 100%;
+      width: 1px;
+      background: #f46e1b;
+      left: 0;
+      top: 0;
+      left: -25px; } }
+
+@media screen and (max-width: 768px) {
+  /* line 1273, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  #feedback .owl-carousel .item .content {
+    background-size: 100% 190px; }
+  /* line 1277, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  #topfooter .listphone .leftbox {
+    float: none;
+    margin: auto;
+    margin-bottom: 20px; }
+  /* line 1283, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  #topfooter .listphone .rightbox {
+    float: none;
+    margin: auto; }
+  /* line 1288, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  footer .flogo img {
+    display: block;
+    margin: auto; }
+  /* line 1293, /Users/vuvankhai/Desktop/EasyinvoiceNEW/libs/css/main.scss */
+  footer .social {
+    justify-content: center;
+    margin-top: 25px; } }
+
+/*# sourceMappingURL=main.css.map */
